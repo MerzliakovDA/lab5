@@ -1,0 +1,14 @@
+def calculate_sum_of_numbers():
+
+    total_sum = 0
+
+    # Сумма всех однозначных чисел (от 1 до 9)
+    for n in range(1, 4):
+      total_sum += n
+
+    return total_sum
+
+if __name__ == "__main__":
+  result = calculate_sum_of_numbers()
+  print(f"Сумма всех n-значных чисел (1 <= n <= 4) равна: {result}")
+
